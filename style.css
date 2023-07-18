@@ -133,3 +133,44 @@ nav ul a {
         margin-top: 0;
     }
 }
+.social-menu ul li span {
+    display: none;
+}
+
+.social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    justify-content: flex-start;
+    justify-content: flex-end;
+}
+
+.social-menu ul li {
+    padding: 5px 10px;
+}
+
+.social-menu a :before {
+    font-family: "Font Awesome 5 Brands";
+    /* font-size: 1.2rem; */
+}
+.social-menu  ul li a[href*='facebook.com'] ::before {
+    content: "\f39e";
+}
+.social-menu ul li a[href*='twitter.com'] ::before {
+    content: '\f099';
+}
+.social-menu ul li a[href*='youtube.com'] ::before {
+    content: '\f431';
+}
+.social-menu ul li a[href*='instagram.com'] ::before {
+    content: '\f16d';
+}
+.social-menu ul li a[href*='pinterest.com'] ::before {
+    content: '\f231';
+}
+ .navegacion-social-dropdown {
+    background-color: #3F51B5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
